@@ -19,7 +19,7 @@ var gulp = require('gulp'), // Подключаем Gulp
 	});
 
     gulp.task('watch', function() {
-		gulp.watch('app/sass/**/*.sass', gulp.parallel('sass')); // Наблюдение за sass файлами
+		gulp.watch('app/sass/**/*.sass', gulp.parallel('sass'), browserSync.reload); // Наблюдение за sass файлами
 		gulp.watch('app/*.html', browserSync.reload); 
 		gulp.watch('app/js/**/*.js', browserSync.reload); 
 	});
