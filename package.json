@@ -1,17 +1,31 @@
 {
-  "name": "project",
+  "name": "two",
   "version": "1.0.0",
-  "description": "study",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"}
-  ,
-  "author": "aleks",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avcheban1988/3-project.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avcheban1988/3-project/issues"
+  },
+  "homepage": "https://github.com/avcheban1988/3-project#readme",
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
     "gulp-sass": "^5.1.0",
-    "gulp-watch": "^5.0.1",
-    "sass": "^1.45.2"}
+    "sass": "^1.48.0"
+  },
+  "dependencies": {
+    "tiny-slider": "^2.9.4"
+  }
 }
