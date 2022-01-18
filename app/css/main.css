@@ -298,7 +298,7 @@
 .consultation {
   min-height: 680px;
   padding: 100px 0 92px 0;
-  background: url("/bg/bg2.jpg") center center/cover no-repeat;
+  background: url(../bg/bg2.jpg) center center/cover no-repeat;
 }
 .consultation__title {
   font-family: MuseoModerno;
@@ -341,6 +341,7 @@
 }
 
 .carousel {
+  position: relative;
   padding: 81px;
 }
 .carousel__inner {
@@ -348,10 +349,20 @@
   margin: 0 auto;
 }
 .carousel .slick-prev {
+  position: absolute;
+  top: 50%;
+  left: -7%;
+}
+.carousel .slick-prev img {
   width: 31px;
   height: 50px;
 }
 .carousel .slick-next {
+  position: absolute;
+  top: 50%;
+  left: 102%;
+}
+.carousel .slick-next img {
   width: 31px;
   height: 50px;
 }
