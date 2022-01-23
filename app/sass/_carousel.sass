@@ -4,17 +4,26 @@
     &__inner
         width: 750px
         margin: 0 auto
-    .slick-prev
+    .prev
         position: absolute
-        top: 50%
-        left: -7%
-        img
-            width: 31px
-            height: 50px
-    .slick-next
+        top: 34%
+        left: 7.5%
+    .next
         position: absolute
-        top: 50%
-        left: 102%
+        left: auto
+        top: 34%
+        right: 7%
+
+    .tns-item //cам слайдер, выравниваю его по центру
         img
-            width: 31px
-            height: 50px
+            display: block
+            margin: 0 auto
+    .tns-nav //все кнопки
+        button
+            width: 15px
+            height: 15px
+            color: grey
+    .tns-nav-active //автивная точка на слайдере
+        background-color: black
+        border: none
+        border-radius: 50%
